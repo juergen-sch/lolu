@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Flugwetter Gmunden LOLU</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    html, body {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      font-family: sans-serif;
+    }
+    iframe {
+      width: 50%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <!-- METAR/TAF -->
+  <iframe src="https://metar-taf.com/LOLU"></iframe>
+
+  <!-- ADSBExchange -->
+  <iframe src="https://globe.adsbexchange.com/?lat=47.921&lon=13.782&zoom=11&openAIP"></iframe>
+</body>
+</html>
