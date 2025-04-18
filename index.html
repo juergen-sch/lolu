@@ -15,6 +15,7 @@
       width: 100%;
       display: flex;
       font-family: sans-serif;
+      background: #000;
     }
     iframe {
       width: 50%;
@@ -24,10 +25,10 @@
   </style>
 </head>
 <body>
-  <!-- METAR/TAF -->
+  <!-- METAR/TAF für LOLU -->
   <iframe src="https://metar-taf.com/LOLU"></iframe>
 
-  <!-- ADSBExchange mit openAIP Layer -->
-  <iframe src="https://globe.adsbexchange.com/?lat=47.921&lon=13.782&zoom=11&openAIP"></iframe>
+  <!-- ADSBExchange Karte ohne openAIP -->
+  <iframe src="https://globe.adsbexchange.com/?lat=47.921&lon=13.782&zoom=11"></iframe>
 </body>
 </html>
